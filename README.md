@@ -9,4 +9,9 @@ Create an Express server, which will simply keep track of a single number. Your 
 
 Finally, test your server using curl *and* using Postman.
 
+    1. curl http://localhost:3000/
+    2. curl -X POST http://localhost:3000/inc
+    3. curl -X POST http://localhost:3000/dec
+    4. curl -X POST http://localhost:3000/die
+
 **Bonus** test your server using the VSCode Rest Client extension too.
